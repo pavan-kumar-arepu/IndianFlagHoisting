@@ -9,18 +9,32 @@ import Foundation
 import SwiftUI
 
 /**
- Passing cloud Animation
+ A SwiftUI view that displays a passing cloud animation with moving cloud images.
+
+ The `CloudAnimationView` creates a continuous animation of passing clouds across the screen. It utilizes an array of cloud images and animates their movement from right to left, giving the illusion of clouds passing by.
+
+ - Note: To use this view, ensure that you have the cloud images named "cloud1" and "cloud2" (or modify the `cloudImages` array to include the actual names of your cloud images).
+
+ - Important: Adjust the `animationDuration` property to set the duration of the cloud animation.
+
+ - Author: [Arepu Pavan Kumar]
  */
 struct CloudAnimationView: View {
+    /// An array of cloud images used in the animation.
     let cloudImages: [Image] = [
         Image("cloud1"), // Replace "cloud1" with the actual name of your first cloud image
         Image("cloud2"), // Replace "cloud2" with the actual name of your second cloud image
     ]
-    
+
+    /// The horizontal offsets for the cloud images to create the moving effect.
     @State private var cloudOffsets: [CGFloat] = [0, 0]
+
+    /// The duration of the cloud animation.
     private let animationDuration: Double = 30 // Adjust the duration of the animation
+
+    /// A state variable to control the visibility of a welcome message (not used in the animation).
     @State private var showWelcomeMessage = true
-    
+
     var body: some View {
         ZStack {
             ForEach(cloudImages.indices, id: \.self) { index in
@@ -35,9 +49,9 @@ struct CloudAnimationView: View {
             animateClouds()
         }
     }
-    
+
     /**
-     Actual method which animates clouds
+     Animates the clouds to create the passing cloud effect.
      */
     private func animateClouds() {
         for index in cloudOffsets.indices {
@@ -51,9 +65,9 @@ struct CloudAnimationView: View {
             }
         }
     }
-
 }
 
+/// A preview provider for the CloudAnimationView.
 struct CloudAnimationView_Preview: PreviewProvider {
     static var previews: some View {
         CloudAnimationView()

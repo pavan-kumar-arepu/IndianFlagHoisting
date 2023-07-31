@@ -18,7 +18,7 @@ import SwiftUI
  
  - Note: The `Coordinator` class is part of a larger SwiftUI app that includes a virtual snowfall animation using custom `Snowflake` objects.
  
- - Author: [Your Name]
+ - Author: [Arepu Pavan Kumar]
  */
 class Coordinator {
     /// The display link used to synchronize the animation with the screen refresh rate.

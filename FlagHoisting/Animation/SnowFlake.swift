@@ -24,7 +24,7 @@ struct Snowflake: Identifiable {
  - Note: The snowfall animation is powered by a custom `Coordinator` class, which synchronizes the snowflake updates with the screen refresh rate
  to ensure smooth and efficient animation.
  
- - Author: [ArepuPavanKumar
+ - Author: [Arepu Pavan Kumar]
  */
 struct SnowFlakeAnimation: View {
     /// The state variable holding the array of `Snowflake` objects representing the falling snowflakes.
