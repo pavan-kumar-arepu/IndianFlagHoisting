@@ -11,6 +11,7 @@
 		0B32822E2A7859330097B384 /* PassingCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32822D2A7859330097B384 /* PassingCloud.swift */; };
 		0B3282302A7876E70097B384 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B32822F2A7876E70097B384 /* Coordinator.swift */; };
 		0B3282332A7877280097B384 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3282322A7877280097B384 /* CommonExtensions.swift */; };
+		0B3282352A78813F0097B384 /* Pole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3282342A78813F0097B384 /* Pole.swift */; };
 		0B69CDBD2A746418000E8FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69CDBC2A746418000E8FBB /* Assets.xcassets */; };
 		0B69CDC02A746418000E8FBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69CDBF2A746418000E8FBB /* Preview Assets.xcassets */; };
 		0B69CDC92A7673C6000E8FBB /* FlagHosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDC82A7673C6000E8FBB /* FlagHosting.swift */; };
@@ -29,6 +30,7 @@
 		0B32822D2A7859330097B384 /* PassingCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingCloud.swift; sourceTree = "<group>"; };
 		0B32822F2A7876E70097B384 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0B3282322A7877280097B384 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		0B3282342A78813F0097B384 /* Pole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pole.swift; sourceTree = "<group>"; };
 		0B69CDB52A746415000E8FBB /* FlagHoisting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagHoisting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B69CDBC2A746418000E8FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B69CDBF2A746418000E8FBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -88,7 +90,6 @@
 				0B69CDC82A7673C6000E8FBB /* FlagHosting.swift */,
 				0B69CDCC2A768059000E8FBB /* ContentView.swift */,
 				0B69CDCD2A768059000E8FBB /* FlagHastingApp.swift */,
-				0B69CDEE2A7705B9000E8FBB /* FireCracker.swift */,
 				0B69CDBC2A746418000E8FBB /* Assets.xcassets */,
 				0B69CDBE2A746418000E8FBB /* Preview Content */,
 			);
@@ -111,6 +112,7 @@
 				0B69CDF42A771303000E8FBB /* GlobeImage.swift */,
 				0B69CDF62A77135D000E8FBB /* Avatar.swift */,
 				0B69CDF82A7713A3000E8FBB /* Triangle.swift */,
+				0B3282342A78813F0097B384 /* Pole.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -198,6 +200,7 @@
 				0B69CDF92A7713A3000E8FBB /* Triangle.swift in Sources */,
 				0B69CDD02A76805A000E8FBB /* FlagHastingApp.swift in Sources */,
 				0B69CDC92A7673C6000E8FBB /* FlagHosting.swift in Sources */,
+				0B3282352A78813F0097B384 /* Pole.swift in Sources */,
 				0B69CDF12A7710BE000E8FBB /* SnowFlake.swift in Sources */,
 				0B32822C2A7847BB0097B384 /* SceneDelegate.swift in Sources */,
 				0B69CDF72A77135D000E8FBB /* Avatar.swift in Sources */,

@@ -8,6 +8,13 @@
 import Foundation
 import SwiftUI
 
+/**
+ A custom SwiftUI shape representing a triangle.
+
+ The `Triangle` shape is used to create a triangle with three points, forming a closed path. It is commonly used as the finial (closing tip) for the top of the flagpole.
+
+ - Author: [Arepu Pavan Kumar]
+ */
 struct Triangle: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -16,32 +23,5 @@ struct Triangle: Shape {
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
         path.closeSubpath()
         return path
-    }
-}
-
-
-struct Pole: View {
-    var body: some View {
-        let screenWidth = UIScreen.main.bounds.width
-        let poleWidth = screenWidth / 40 // Adjust the width of the pole
-        let poleHeight = UIScreen.main.bounds.height / 1.8 // Adjust the height of the pole
-        
-        VStack(spacing: 0) {
-            // Small triangle closing tip (finial) for the top of the pole
-            Triangle()
-                .fill(Color.brown)
-                .frame(width: poleWidth, height: poleWidth / 2) // Adjust the dimensions of the finial
-            
-            Rectangle()
-                .fill(Color.brown) // Color of the flagpole
-                .frame(width: poleWidth, height: poleHeight)
-        }
-    }
-}
-
-
-struct Pole_preview : PreviewProvider {
-    static var previews: some View {
-        Pole()
     }
 }

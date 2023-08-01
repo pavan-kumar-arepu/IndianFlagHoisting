@@ -8,6 +8,17 @@
 import Foundation
 import SwiftUI
 
+/**
+ A SwiftUI view representing a flag hoisting animation.
+
+ The `FlagHosting` view displays an animation that simulates the hoisting of the Indian flag. The animation involves a flagpole with layers of bricks, an image of a human holding the flag, and a globe icon at the top of the pole. Snowflakes fall gently in the background, creating a winter ambiance.
+
+ - Note: The `FlagHosting` view is a dynamic animation and requires user interaction (tapping) to simulate the hoisting action. The animation sequence starts with a welcome message, followed by the movement of the human image to its target position. Once the human image reaches the target position, the Indian flag is hoisted, and snowflakes start falling in the background.
+
+ - Important: Ensure that all the required assets, including images for the human, Indian flag, and globe icon, are available in the asset catalog before using the `FlagHosting` view.
+
+ - Author: [Arepu Pavan Kumar]
+ */
 struct FlagHosting: View {
     @State private var humanPosition: CGPoint = CGPoint(x: 180, y: 585) // Initial position
     @State private var targetPosition: CGPoint = CGPoint(x: 180, y: 585) // Current target position
@@ -203,10 +214,3 @@ struct FlagHosting: View {
            }
        }
 }
-
-//// Preview the FlagHosting with the correct layout
-//struct FlagHosting_Previews: PreviewProvider {
-//    static var previews: some View {
-//        FlagHosting(screenWidth: UIScreen.main.bounds.width, screenHeight: UIScreen.main.bounds.height, isFlagHastingDone: <#Binding<Bool>#>)
-//    }
-//}
