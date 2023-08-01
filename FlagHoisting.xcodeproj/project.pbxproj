@@ -15,7 +15,6 @@
 		0B69CDBD2A746418000E8FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69CDBC2A746418000E8FBB /* Assets.xcassets */; };
 		0B69CDC02A746418000E8FBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B69CDBF2A746418000E8FBB /* Preview Assets.xcassets */; };
 		0B69CDC92A7673C6000E8FBB /* FlagHosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDC82A7673C6000E8FBB /* FlagHosting.swift */; };
-		0B69CDCF2A76805A000E8FBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDCC2A768059000E8FBB /* ContentView.swift */; };
 		0B69CDD02A76805A000E8FBB /* FlagHastingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDCD2A768059000E8FBB /* FlagHastingApp.swift */; };
 		0B69CDF12A7710BE000E8FBB /* SnowFlake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDF02A7710BE000E8FBB /* SnowFlake.swift */; };
 		0B69CDF32A771292000E8FBB /* IndianFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDF22A771291000E8FBB /* IndianFlag.swift */; };
@@ -23,6 +22,7 @@
 		0B69CDF72A77135D000E8FBB /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDF62A77135D000E8FBB /* Avatar.swift */; };
 		0B69CDF92A7713A3000E8FBB /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDF82A7713A3000E8FBB /* Triangle.swift */; };
 		0B69CDFF2A7720EA000E8FBB /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69CDFE2A7720EA000E8FBB /* Brick.swift */; };
+		0B8021C42A796AD0006F0CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8021C32A796AD0006F0CEF /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		0B69CDBC2A746418000E8FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B69CDBF2A746418000E8FBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B69CDC82A7673C6000E8FBB /* FlagHosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagHosting.swift; sourceTree = "<group>"; };
-		0B69CDCC2A768059000E8FBB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../.Trash/ContentView.swift; sourceTree = "<group>"; };
 		0B69CDCD2A768059000E8FBB /* FlagHastingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagHastingApp.swift; sourceTree = "<group>"; };
 		0B69CDF02A7710BE000E8FBB /* SnowFlake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowFlake.swift; sourceTree = "<group>"; };
 		0B69CDF22A771291000E8FBB /* IndianFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianFlag.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		0B69CDF62A77135D000E8FBB /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		0B69CDF82A7713A3000E8FBB /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		0B69CDFE2A7720EA000E8FBB /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		0B8021C32A796AD0006F0CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +88,8 @@
 				0B69CDFD2A772038000E8FBB /* Animation */,
 				0B69CDFC2A77201A000E8FBB /* HelperViews */,
 				0B69CDC82A7673C6000E8FBB /* FlagHosting.swift */,
-				0B69CDCC2A768059000E8FBB /* ContentView.swift */,
 				0B69CDCD2A768059000E8FBB /* FlagHastingApp.swift */,
+				0B8021C32A796AD0006F0CEF /* ContentView.swift */,
 				0B69CDBC2A746418000E8FBB /* Assets.xcassets */,
 				0B69CDBE2A746418000E8FBB /* Preview Content */,
 			);
@@ -199,13 +199,13 @@
 			files = (
 				0B69CDF92A7713A3000E8FBB /* Triangle.swift in Sources */,
 				0B69CDD02A76805A000E8FBB /* FlagHastingApp.swift in Sources */,
+				0B8021C42A796AD0006F0CEF /* ContentView.swift in Sources */,
 				0B69CDC92A7673C6000E8FBB /* FlagHosting.swift in Sources */,
 				0B3282352A78813F0097B384 /* Pole.swift in Sources */,
 				0B69CDF12A7710BE000E8FBB /* SnowFlake.swift in Sources */,
 				0B32822C2A7847BB0097B384 /* SceneDelegate.swift in Sources */,
 				0B69CDF72A77135D000E8FBB /* Avatar.swift in Sources */,
 				0B69CDFF2A7720EA000E8FBB /* Brick.swift in Sources */,
-				0B69CDCF2A76805A000E8FBB /* ContentView.swift in Sources */,
 				0B3282302A7876E70097B384 /* Coordinator.swift in Sources */,
 				0B69CDF32A771292000E8FBB /* IndianFlag.swift in Sources */,
 				0B69CDF52A771303000E8FBB /* GlobeImage.swift in Sources */,
